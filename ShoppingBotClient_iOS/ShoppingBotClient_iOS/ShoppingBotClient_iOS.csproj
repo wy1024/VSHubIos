@@ -108,7 +108,7 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="JSQMessagesViewController">
-      <HintPath>..\Components\jsqmessagesviewcontroller-7.2.0\lib\ios-unified\JSQMessagesViewController.dll</HintPath>
+      <HintPath>..\..\..\JSQMessagesViewController.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
