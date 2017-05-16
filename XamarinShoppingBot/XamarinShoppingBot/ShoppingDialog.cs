@@ -207,7 +207,8 @@ namespace XamarinShoppingBot
             long phoneNumber = await result;
             await context.PostAsync("We will call you at " + phoneNumber.ToString());
 
-			context.Done();
+            context.Done(true);
+        }
 
 
         public static bool IsOdd(int value)
